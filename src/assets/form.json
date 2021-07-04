@@ -1,0 +1,20 @@
+{
+    "id":1,
+    "fields":[
+        {
+            "type": "email",
+            "name": "email",
+            "label": "Email",
+            "placeHolder": "nom.prenom@dots.com",
+            "required": true
+        },
+        {
+            "type": "select",
+            "name": "service",
+            "label": "Service",
+            "options": ["Développement","Marketing","Commerce", "Produit", "Finance", "Autre"],
+            "placeHolder": "Service",
+            "required": true
+        }
+    ]
+}
